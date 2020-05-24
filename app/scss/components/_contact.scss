@@ -43,6 +43,10 @@
                     font-size: 1.1em;
                     font-weight: 500;
 
+                    @media screen and (max-width: $breakpoint-large) {
+                        font-size: 0.8em;
+                    }
+
                     a {
                         color: $dark-text-color;
                         font-size: 0.9em;

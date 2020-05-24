@@ -1,2 +1,7 @@
-/public
 /node_modules
+/app
+package-lock.json
+package.json
+webpack.config.prod.js
+webpack.config.dev.js
+
