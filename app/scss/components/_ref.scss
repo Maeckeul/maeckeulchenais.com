@@ -1,0 +1,29 @@
+.ref {
+
+    &__title {
+        font-size: 1.5em;
+        font-weight: bold;
+        
+    }
+
+    &__list {
+        margin-top: 0.8em;
+
+        &--item {
+
+            &--link {
+                color: $dark-text-color;
+                font-size: 0.8em;
+                font-weight: 500;
+                margin-right: 10em;
+            }
+
+            .ref__list--item--span {
+                color: darken($text-color, 50%);
+                font-size: 0.8em;
+                margin-right: 2em;
+                font-weight: 500;
+            }
+        }
+    }
+}

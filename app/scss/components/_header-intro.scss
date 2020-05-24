@@ -1,0 +1,20 @@
+.header {
+
+    .intro {
+        margin-top: 2em;
+
+        &__list {
+
+            &--item {
+                margin-top: 0.4em;
+                font-size: 1.3em;
+                color: $dark-text-color;
+
+                &--link {
+                    font-weight: bold;
+                    color: $text-color;
+                }
+            }
+        }
+    }
+}

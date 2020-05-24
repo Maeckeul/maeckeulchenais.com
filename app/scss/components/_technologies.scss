@@ -1,0 +1,38 @@
+.technologies {
+
+    width: 500px;
+
+    &__title {
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+
+    &__list {
+        margin-top: 1.2em;
+        color: $dark-text-color;
+        font-size: 0.8em;
+        font-weight: 500;
+
+        &--items {
+            display: flex;
+            justify-content: flex-end;
+            margin-bottom: 0.2em;
+
+            .technologies__list--item{
+                margin-right: 1em;
+                margin-top: 0.3em;
+            }
+
+            .technologies__list--progression-bar {
+
+                height: 0.4em;
+                background-color: $light-main-color;
+                margin-top: 0.3em;
+            }
+        }
+
+        .spacer {
+            margin-top: 1.3em;
+        }
+    }
+}
