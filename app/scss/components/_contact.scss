@@ -4,6 +4,11 @@
         font-size: 1.5em;
         font-weight: bold;
         margin-top: 2em;
+
+        @media screen and (max-width: $breakpoint-extra-large) {
+            display: flex;
+            justify-content: center;
+        }
     }
 
     .contact__container {
@@ -68,7 +73,7 @@
                 font-size: 0.8em;
                 margin-top: 1.3em;
                 color: darken($text-color, 50%);
-                font-weight: 400;
+                font-weight: 500;
             }
         }
 

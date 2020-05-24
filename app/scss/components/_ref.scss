@@ -2,12 +2,21 @@
 
     &__title {
         font-size: 1.5em;
-        font-weight: bold;
+        font-weight: bold; 
         
+        @media screen and (max-width: $breakpoint-extra-large) {
+            display: flex;
+            justify-content: center;
+        }
     }
 
     &__list {
-        margin-top: 0.8em;
+        margin-top: 1em;
+
+        @media screen and (max-width: $breakpoint-extra-large) {
+            display: flex;
+            justify-content: center;
+        }
 
         &--item {
 
@@ -15,7 +24,7 @@
                 color: $dark-text-color;
                 font-size: 0.8em;
                 font-weight: 500;
-                margin-right: 10em;
+                margin-right: 6em;
             }
 
             .ref__list--item--span {

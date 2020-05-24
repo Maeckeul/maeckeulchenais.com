@@ -2,4 +2,8 @@
     display: flex;
     justify-content: center;
     margin-top: 3em;
+
+    @media screen and (max-width: $breakpoint-extra-large) {
+        flex-wrap: wrap;
+    }
 }

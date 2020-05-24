@@ -1,0 +1,7 @@
+.main-left {
+    @media screen and (max-width: $breakpoint-extra-large) {
+        display: block;
+        justify-content: center;
+        margin: 1em auto;
+    }
+}
