@@ -38,6 +38,10 @@
                         color: $dark-text-color;
                         font-size: 0.9em;
                         font-weight: 500;
+
+                        &:hover {
+                            color: $light-main-color;
+                        }
                     }
                 }
             }
@@ -52,6 +56,10 @@
                         margin-right: 0.5em;
                         color: $dark-text-color;
                         margin-top: 0.3em;
+
+                        &:hover {
+                            color: $light-main-color;
+                        }
                     }
                 }
             }

@@ -10,10 +10,14 @@ html {
 body {
     border: 15px solid $main-color;
     background-color: $bg-color;
-    padding: 2em 4em 1em 4em;
+    padding: 2em 5em 1em 5em;
 }
 
 a {
     text-decoration: none;
     color: $text-color;
+
+    &:hover {
+        color: $light-main-color;
+    }
 }
