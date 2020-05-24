@@ -5,12 +5,20 @@
         &--name {
             font-size: 2.6em;
             font-weight: 600;
+
+            @media screen and (max-width: $breakpoint-large) {
+                font-size: 2em;
+            }
         }
 
         &--work {
             font-size: 1.2em;
             margin-top: 0.4em;
             color: $light-main-color;
+
+            @media screen and (max-width: $breakpoint-large) {
+                font-size: 1em;
+            }
         }
     }
 }
